@@ -65,28 +65,6 @@ export default function EnquiryModal({ open, onClose }) {
     }
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   if (!validate()) return;
-  
-  //   try {
-  //     const res = await fetch("http://localhost:5000/lead", {
-  //       method: "POST",
-  //       headers: { "Content-Type": "application/json" },
-  //       body: JSON.stringify(form),
-  //     });
-  
-  //     if (!res.ok) {
-  //       throw new Error("Failed");
-  //     }
-  
-  //     alert("Enquiry sent successfully!");
-  //     onClose();
-  //   } catch (err) {
-  //     console.error("ERROR:", err);
-  //     alert("Failed to send enquiry. Backend not reachable.");
-  //   }
-  // };
   
 
   if (!open) return null;
